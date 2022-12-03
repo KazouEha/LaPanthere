@@ -334,7 +334,9 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    /* background: blue; */
+    /* border: 1px  solid blue; */
+    border: 3px solid blue;
 }
 
 .navbar-toggle {
@@ -456,12 +458,17 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    border: 3px solid blue;
 }
 
-button {
-    outline: none!important;
+
+a:focus{
+    border: 3px solid blue;
+}
+
+button:focus{
+    border: 3px solid blue;
+
 }
 
 .btn-rd {
